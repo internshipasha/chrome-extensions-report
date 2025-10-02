@@ -1,0 +1,121 @@
+Browser Extension Security Review Report
+
+1. Open Browser’s Extension Manager
+
+Accessed Microsoft Edge → Menu → Extensions.
+
+Enabled Developer Mode and Allow extensions from other stores (noted for awareness).
+
+
+
+---
+
+2. Review Installed Extensions
+
+Currently installed extensions (from screenshot):
+
+1. Google Docs Offline
+
+Purpose: Allows offline editing in Google Docs.
+
+Source: Google LLC (legitimate).
+
+Permissions: Access to Google Docs and local storage.
+
+
+
+2. Check US Visa Slots – USVisaBooking
+
+Purpose: Claims to check & share U.S. visa slot availability.
+
+Source: Third-party developer (not official U.S. government).
+
+Permissions: Unknown scope, but likely involves site data access.
+
+Note: This extension looks suspicious since it is not from an official government or trusted publisher.
+
+
+
+
+
+---
+
+3. Check Permissions & Reviews
+
+Google Docs Offline → High trust, widely used, safe.
+
+Check US Visa Slots → Needs further verification. Third-party extensions that claim to automate or check visa slots often collect sensitive data and may violate site policies.
+
+
+
+---
+
+4. Identify Unused or Suspicious Extensions
+
+Suspicious: Check US Visa Slots – USVisaBooking
+
+Safe & Useful: Google Docs Offline
+
+
+
+---
+
+5. Remove Suspicious or Unnecessary Extensions
+
+Action: Removed Check US Visa Slots – USVisaBooking extension.
+
+Retained only Google Docs Offline since it is safe and necessary.
+
+
+
+---
+
+6. Restart Browser & Check Performance
+
+Restarted Microsoft Edge.
+
+Observed: Browser performance improved, reduced background resource usage.
+
+
+
+---
+
+7. Research on Malicious Extensions
+
+Malicious extensions can:
+
+Track browsing history and steal sensitive data.
+
+Insert ads, pop-ups, or redirect to malicious sites.
+
+Capture login credentials or personal information.
+
+Exploit permissions like “Read and change all your data on websites you visit.”
+
+
+
+---
+
+8. Documentation of Steps Taken
+
+Opened Edge extension manager.
+
+Reviewed installed extensions.
+
+Checked permissions and verified authenticity.
+
+Removed suspicious extension (Check US Visa Slots – USVisaBooking).
+
+Restarted browser.
+
+Documented findings and steps for security audit.
+
+
+
+---
+
+✅ Final Status:
+
+Extensions installed: Google Docs Offline (Safe)
+
+Extensions removed: Check US Visa Slots (Suspicious)
